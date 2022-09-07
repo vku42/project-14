@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: "open sans";
+}
+
+.girl {
+    background-image: url("./images/pexels-rfstudio-3819572.jpg");
+    width: 30vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.girl img {
+    margin-top: 50px;
+    margin-left: 80px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(77, 76, 76);
+
+}
+
+nav h4 {
+    cursor: pointer; 
+}
+
+nav h4:hover {
+    color: #000;
+}
+
+
+.section-r {
+    flex: 1;
+    padding: 50px 50px;
+    padding-bottom: 0px;
+    height: 93vh;
+    overflow: hidden;
+}
+
+.line-top {
+    float: left;
+    height: 2px;
+    width: 40%;
+    background-color: #000;
+}
+
+/* ------------------------------------ */
+.creative {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 35vh;
+}
+
+.word_creative {
+    font-family: "PT Serif";
+    width: 35vw;
+    color: #242124;
+}
+
+.word_creative h1 {
+    font-size: 120px;
+    line-height: 6rem;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.word_creative h1 span {
+    margin-left: 150px;
+    color: #242124;
+}
+
+.ingredient {
+    width: 20vw;
+}
+
+.ingredient h2 {
+    position: relative;
+    top: 16vh;
+    font-size: 2rem;
+    color: #6f6f6f;
+}
+
+.social_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25vh;
+}
+
+.social_icon img {
+    width: 20px;
+}
+
+/* button */
+
+
+.btn button {
+    background-color: #242124;
+    border: none;
+    padding: 10px 50px;
+    color: #fff;
+    font-size: 1.2rem;
+    position: relative;
+    right: -65%;
+    cursor: pointer;
+}
+
+/* lower */
+.lower {
+    display: flex;
+    padding-top: 15px;
+    
+}
+
+.vertical {
+    width: 1px;
+    background-color: #000;
+}
+
+.vert-nav {
+    width: 40%;
+}
+
+.vert-nav h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: rgb(73, 73, 73);
+    cursor: pointer;
+}
+
+.vert-nav h4 div {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(73, 73, 73);
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+    left: -5px;
+}
+
+.vert-nav h4:hover {
+    color: #242124;
+}
+
+.vert-nav h4 div:hover {
+    background-color: #242124;
+}
+
+
+.dance {
+    width: 50%;
+}
+
+
+.dance img {
+    margin-top: 10px;
+    width: 400px;
+}
+
+.dance h3 {
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.quote {
+    font-size: 2rem;
+}
+
+.arrow {
+    width: 50px;
+    height: 100px;
+    position: relative;
+    top: 150px;
+}
